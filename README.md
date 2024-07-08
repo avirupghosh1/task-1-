@@ -50,7 +50,9 @@ creating a static map using slam(gmapping) and doing navigation using the map(us
 
 - ***change the static_map parameter in turtlebot3_navigation/param/global_costmap_params.yaml file to false and add the rolling_window parameter with value true*
 - For this approach after launching the gazebo world launch the following
-```bash
+
+- yt video for this approach is [here](https://www.youtube.com/watch?v=u2xmxfuysww&ab_channel=AvirupGhosh)
+
  roslaunch turtlebot3_navigation turtlebot3_navigation_gmapping.launch
  ```
  - this will show a rviz window with a smaller and dinamic global costmap inside the globalcostmap click on any point using 2dnavgoal tool the robot will start moving and also keep on building the map .
