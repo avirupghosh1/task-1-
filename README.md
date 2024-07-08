@@ -54,7 +54,7 @@ creating a static map using slam(gmapping) and doing navigation using the map(us
 - yt video for this approach is [here](https://www.youtube.com/watch?v=u2xmxfuysww&ab_channel=AvirupGhosh)
 
  roslaunch turtlebot3_navigation turtlebot3_navigation_gmapping.launch
- ```
+ 
  - this will show a rviz window with a smaller and dinamic global costmap inside the globalcostmap click on any point using 2dnavgoal tool the robot will start moving and also keep on building the map .
  - in the end you can also save the map just like the first method.
  - this way of navigation and mapping helps to increase the manual mapping efficiency as you need to just click a far away point and the map will keep on generating.
